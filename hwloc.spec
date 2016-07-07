@@ -17,8 +17,4 @@ make -j8
 
 %install
 make install
-#mkdir -p %{i}/lib %{i}/include
-#cp src/.libs/libhwloc.so.5.7.0 %{i}/lib/
-#ln -s %{i}/lib/libhwloc.so.5.7.0 %{i}/lib/libhwloc.so
-#cp -fr ./include  %{i}
 
