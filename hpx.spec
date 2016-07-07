@@ -1,7 +1,7 @@
-### RPM external hpx master
+### RPM external hpx concurrent_data_structures
 
-%define branch master
-%define tag 400b232d1f1cb7fa8bf5649e5e1bb8d52134622f
+%define branch concurrent_data_structures
+%define tag f6397866044dba6723083b9b1fd3a002d895d782
 Source: git+https://github.com/STEllAR-GROUP/%{n}.git?obj=%{branch}/%{tag}&export=%{n}-%{realversion}&output=/%{n}-%{realversion}.tgz
 
 BuildRequires: cmake
